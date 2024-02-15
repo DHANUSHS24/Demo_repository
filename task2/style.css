@@ -1,0 +1,59 @@
+body {
+    font-family: Trebuchet ;
+    background-image: url(bg.jpg);
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.input-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#new-task {
+    
+    flex: 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#add-button {
+    padding: 10px 20px;
+    background-color: #2E86C1;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li {
+    margin-bottom: 10px;
+    line-height: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#todo-list li.completed {
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+#todo-list li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
