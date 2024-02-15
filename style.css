@@ -1,0 +1,44 @@
+.logo {
+    margin-top: 10px;
+
+}
+.header1{
+    margin-top: -80px;
+}
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+ 
+  .card {
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0);
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  /* .badge{
+    background-color: blueviolet;
+  } */
+
+  @media (max-width: 768px) {
+    .photo-grid {
+      flood-color: 2;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .photo-grid {
+      flood-color: 1;
+    }
+  }
